@@ -8,6 +8,14 @@ html {
   margin: auto;
   display: flex;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
 /* Header */
 header {
   background-color: black;
@@ -22,7 +30,6 @@ header {
   background-color: black;
   padding: 0.66rem 0;
   width: 100%;
-
 }
 .logo span {
   margin: auto 0.5rem;
@@ -37,6 +44,11 @@ main {
   top: 2.75rem;
 }
 /* Banner */
+.banner.container {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
+}
 .banner {
   background-image: url("../images/moto.jpeg");
   background-repeat: no-repeat;
@@ -44,11 +56,38 @@ main {
   background-size: cover;
   height: 25rem;
   width: auto;
+  /*display: flex;
+  justify-content: center;
+  flex-direction: column;*/
+}
+.title {
+  background-color: black;
+  width: 20rem;
+  margin-top: 9rem;
+  /*flex-direction: column;*/
 
 }
-
+.title h3 {
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.title h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 0.25rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
 /* Navigation bar */
-
+nav {
+  background-color: firebrick;
+}
+nav .container {
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: space-between;
+}
 /* Products */
 
 /* Store info */
