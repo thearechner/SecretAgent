@@ -8,6 +8,7 @@ html {
   margin: auto;
   display: flex;
 }
+
 /* Links */
 a {
   color: white;
@@ -17,6 +18,7 @@ a:hover {
   color: white;
   text-decoration: none;
 }
+
 /* Header */
 header {
   background-color: black;
@@ -44,6 +46,7 @@ main {
   position: relative;
   top: 2.75rem;
 }
+
 /* Banner */
 .banner {
   background-image: url("../images/moto.jpeg");
@@ -70,6 +73,7 @@ main {
   padding-left: 2rem;
   padding-bottom: 2rem;
 }
+
 /* Navigation bar */
 nav {
   background-color: firebrick;
@@ -79,6 +83,7 @@ nav .container {
   display: flex;
   justify-content: space-between;
 }
+
 /* Products */
 .products {
   display: flex;
@@ -90,7 +95,6 @@ nav .container {
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
-  /*align-items: center;*/
   flex-direction: column;
 }
 .product img {
@@ -99,9 +103,6 @@ nav .container {
   padding: 2rem;
   margin: auto;
 }
-/*.glasses {
-  margin-top: 2rem;
-}*/
 .product .label {
   background-color: black;
   width: 100%;
@@ -110,6 +111,30 @@ nav .container {
 }
 
 /* Store info */
-
+.store {
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.info {
+  width: 35%;
+}
+.info div {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+.info p {
+  color: black;
+  padding-bottom: 4rem;
+}
 
 /* Footer */
+footer {
+  background-color: black;
+  min-height: 5rem;
+  padding: 2rem 0;
+  position: relative;
+}
+footer span {
+  padding: 2rem 0;
+}
