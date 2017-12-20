@@ -32,11 +32,19 @@ header {
   width: auto;
   margin: auto 0.5rem;
 }
+main {
+  position: relative;
+  top: 2.75rem;
+}
 /* Banner */
 .banner {
-  background-image: url(".resources/images/moto.jpeg");
-  position: relative
-  top: auto;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  width: auto;
+
 }
 
 /* Navigation bar */
